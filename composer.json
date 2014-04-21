@@ -1,0 +1,24 @@
+{
+    "name": "vda/messaging",
+    "type": "library",
+    "description": "Set of low-level interfaces and implementations for interprocess communication",
+    "keywords": ["mq", "messaging", "message queue"],
+    "require": {
+        "php": ">=5.3.23",
+        "vda/service-integration": "self.version",
+        "vda/util": "self.version"
+    },
+    "suggest": {
+        "ext-Stomp": "C implementation of STOMP (>=1.0.5)"
+    },
+    "autoload": {
+        "psr-0": { "": "" }
+    },
+    "target-dir": "Vda/Messaging",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-trunk": "1-dev"
+        }
+    }
+}
