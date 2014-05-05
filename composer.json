@@ -5,8 +5,8 @@
     "keywords": ["mq", "messaging", "message queue"],
     "require": {
         "php": ">=5.3.23",
-        "vda/service-integration": "self.version",
-        "vda/util": "self.version"
+        "vda/service-integration": "0.11.*",
+        "vda/util": "0.11.*"
     },
     "suggest": {
         "ext-Stomp": "C implementation of STOMP (>=1.0.5)"
